@@ -1,5 +1,7 @@
 # 🔍 Vizzy-Search
 
+[![npm version](https://img.shields.io/npm/v/vizzy-search.svg?style=flat&color=black&labelColor=white)](https://www.npmjs.com/package/vizzy-search)
+
 A lightweight, performant fuzzy search library for React with built-in memoization using Levenshtein distance.
 
 ## Features
@@ -77,3 +79,8 @@ const distance = levenshtein('batman', 'batmann'); // Returns: 1
 ## License
 
 MIT © [Visalan-H](https://github.com/Visalan-H)
+
+---
+
+Why fuzzy search when you can vizzy search 🗣️
+
