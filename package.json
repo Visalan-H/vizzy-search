@@ -1,0 +1,40 @@
+{
+  "name": "vizzy-search",
+  "version": "1.0.0",
+  "description": "custom implementation of fuzzy search with useMemo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fuzzy",
+    "search",
+    "levenshtein",
+    "typescript",
+    "string",
+    "distance",
+    "matching",
+    "usememo",
+    "react"
+  ],
+  "author": "Visalan-H",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Visalan-H/vizzy-search.git"
+  },
+  "homepage": "https://github.com/Visalan-H/vizzy-search",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "typescript": "^5.9.2"
+  }
+}
